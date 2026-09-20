@@ -1,0 +1,169 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-20T10:30:00Z",
+  "title": "Design System: SheoJol Frontend",
+  "extensions": {
+    "colorMeta": {
+      "ground": { "role": "neutral", "displayName": "Slate Ground", "canonical": "#f8fafc", "tonalRamp": ["#0f172a", "#1e293b", "#334155", "#475569", "#64748b", "#94a3b8", "#cbd5e1", "#e2e8f0", "#f1f5f9", "#f8fafc"] },
+      "surface": { "role": "neutral", "displayName": "Surface", "canonical": "#ffffff", "tonalRamp": ["#18181b", "#1e293b", "#27272a", "#27272a", "#3f3f46", "#52525b", "#a1a1aa", "#f4f4f5", "#ffffff", "#ffffff"] },
+      "surface-2": { "role": "neutral", "displayName": "Secondary Surface", "canonical": "#f1f5f9", "tonalRamp": ["#0f172a", "#1e293b", "#334155", "#475569", "#64748b", "#94a3b8", "#cbd5e1", "#e2e8f0", "#f1f5f9", "#f8fafc"] },
+      "edge": { "role": "neutral", "displayName": "Edge Border", "canonical": "#cbd5e1", "tonalRamp": ["#0f172a", "#1e293b", "#334155", "#475569", "#64748b", "#94a3b8", "#cbd5e1", "#e2e8f0", "#f1f5f9", "#f8fafc"] },
+      "ink": { "role": "neutral", "displayName": "Ink", "canonical": "#18181b", "tonalRamp": ["#09090b", "#18181b", "#27272a", "#3f3f46", "#52525b", "#71717a", "#a1a1aa", "#d4d4d8", "#e4e4e7", "#f4f4f5"] },
+      "content-muted": { "role": "neutral", "displayName": "Muted Text", "canonical": "#52525b", "tonalRamp": ["#09090b", "#18181b", "#27272a", "#3f3f46", "#52525b", "#71717a", "#a1a1aa", "#d4d4d8", "#e4e4e7", "#f4f4f5"] },
+      "primary": { "role": "primary", "displayName": "Waypoint Emerald", "canonical": "#059669", "tonalRamp": ["#022c22", "#064e3b", "#065f46", "#047857", "#059669", "#10b981", "#34d399", "#6ee7b7", "#a7f3d0", "#d1fae5"] },
+      "primary-foreground": { "role": "primary", "displayName": "Primary Foreground", "canonical": "#ffffff", "tonalRamp": [] },
+      "accent": { "role": "secondary", "displayName": "Basecamp Cyan", "canonical": "#0891b2", "tonalRamp": ["#082f49", "#164e63", "#155e75", "#0e7490", "#0891b2", "#06b6d4", "#22d3ee", "#67e8f9", "#a5f3fc", "#cffafe"] },
+      "accent-foreground": { "role": "secondary", "displayName": "Accent Foreground", "canonical": "#ffffff", "tonalRamp": [] },
+      "danger": { "role": "tertiary", "displayName": "Danger Red", "canonical": "#dc2626", "tonalRamp": ["#450a0a", "#7f1d1d", "#991b1b", "#b91c1c", "#dc2626", "#ef4444", "#f87171", "#fca5a5", "#fecaca", "#fee2e2"] },
+      "danger-foreground": { "role": "tertiary", "displayName": "Danger Foreground", "canonical": "#ffffff", "tonalRamp": [] },
+      "warn": { "role": "tertiary", "displayName": "Pending Amber", "canonical": "#d97706", "tonalRamp": ["#451a03", "#78350f", "#92400e", "#b45309", "#d97706", "#f59e0b", "#fbbf24", "#fcd34d", "#fde68a", "#fef3c7"] },
+      "ground-dark": { "role": "neutral", "displayName": "Night Ground", "canonical": "#18181b", "tonalRamp": ["#09090b", "#18181b", "#27272a", "#3f3f46", "#52525b", "#71717a", "#a1a1aa", "#d4d4d8", "#e4e4e7", "#f4f4f5"] },
+      "surface-dark": { "role": "neutral", "displayName": "Night Surface", "canonical": "#1e293b", "tonalRamp": ["#0f172a", "#1e293b", "#273449", "#334155", "#475569", "#64748b", "#94a3b8", "#cbd5e1", "#e2e8f0", "#f1f5f9"] },
+      "surface-2-dark": { "role": "neutral", "displayName": "Night Secondary Surface", "canonical": "#0f172a", "tonalRamp": ["#020617", "#0f172a", "#1e293b", "#273449", "#334155", "#475569", "#64748b", "#94a3b8", "#cbd5e1", "#e2e8f0"] },
+      "edge-dark": { "role": "neutral", "displayName": "Night Edge", "canonical": "#334155", "tonalRamp": ["#0f172a", "#1e293b", "#273449", "#334155", "#475569", "#64748b", "#94a3b8", "#cbd5e1", "#e2e8f0", "#f1f5f9"] },
+      "ink-dark": { "role": "neutral", "displayName": "Night Ink", "canonical": "#f1f5f9", "tonalRamp": ["#0f172a", "#1e293b", "#334155", "#475569", "#64748b", "#94a3b8", "#cbd5e1", "#e2e8f0", "#f1f5f9", "#ffffff"] },
+      "content-muted-dark": { "role": "neutral", "displayName": "Night Muted Text", "canonical": "#94a3b8", "tonalRamp": ["#0f172a", "#1e293b", "#334155", "#475569", "#64748b", "#94a3b8", "#cbd5e1", "#e2e8f0", "#f1f5f9", "#ffffff"] },
+      "primary-dark": { "role": "primary", "displayName": "Night Waypoint Emerald", "canonical": "#34d399", "tonalRamp": ["#022c22", "#064e3b", "#065f46", "#047857", "#059669", "#10b981", "#34d399", "#6ee7b7", "#a7f3d0", "#d1fae5"] },
+      "primary-foreground-dark": { "role": "primary", "displayName": "Night Primary Foreground", "canonical": "#09090b", "tonalRamp": [] },
+      "accent-dark": { "role": "secondary", "displayName": "Night Basecamp Cyan", "canonical": "#22d3ee", "tonalRamp": ["#082f49", "#164e63", "#155e75", "#0e7490", "#0891b2", "#06b6d4", "#22d3ee", "#67e8f9", "#a5f3fc", "#cffafe"] },
+      "accent-foreground-dark": { "role": "secondary", "displayName": "Night Accent Foreground", "canonical": "#09090b", "tonalRamp": [] },
+      "danger-dark": { "role": "tertiary", "displayName": "Night Danger", "canonical": "#f87171", "tonalRamp": ["#450a0a", "#7f1d1d", "#991b1b", "#b91c1c", "#dc2626", "#ef4444", "#f87171", "#fca5a5", "#fecaca", "#fee2e2"] },
+      "warn-dark": { "role": "tertiary", "displayName": "Night Pending Amber", "canonical": "#fbbf24", "tonalRamp": ["#451a03", "#78350f", "#92400e", "#b45309", "#d97706", "#f59e0b", "#fbbf24", "#fcd34d", "#fde68a", "#fef3c7"] },
+      "type-official": { "role": "secondary", "displayName": "Type Pill Green (Official)", "canonical": "#22c55e", "tonalRamp": ["#022c22", "#064e3b", "#065f46", "#047857", "#059669", "#16a34a", "#22c55e", "#4ade80", "#86efac", "#bbf7d0"] },
+      "type-verified": { "role": "secondary", "displayName": "Type Pill Cyan (Verified)", "canonical": "#06b6d4", "tonalRamp": ["#082f49", "#164e63", "#155e75", "#0e7490", "#0891b2", "#06b6d4", "#22d3ee", "#67e8f9", "#a5f3fc", "#cffafe"] },
+      "type-warning": { "role": "tertiary", "displayName": "Type Pill Red (Warning)", "canonical": "#ef4444", "tonalRamp": ["#450a0a", "#7f1d1d", "#991b1b", "#b91c1c", "#dc2626", "#ef4444", "#f87171", "#fca5a5", "#fecaca", "#fee2e2"] },
+      "marker": { "role": "secondary", "displayName": "Marker Deep Green (Basecamp)", "canonical": "#16a34a", "tonalRamp": ["#022c22", "#064e3b", "#065f46", "#047857", "#059669", "#16a34a", "#22c55e", "#4ade80", "#86efac", "#bbf7d0"] }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "Landing set-register hero headline only." },
+      "headline": { "displayName": "Headline", "purpose": "Landing section headers, admin overview headers." },
+      "title": { "displayName": "Title", "purpose": "Page titles and KPI numbers." },
+      "body": { "displayName": "Body", "purpose": "Paragraphs, table cells, descriptions (max ~65ch)." },
+      "label": { "displayName": "Label", "purpose": "Uppercase eyebrow labels; never body copy." },
+      "wordmark": { "displayName": "Wordmark", "purpose": "Dashboard/rail product wordmark (15px)." },
+      "wordmark-lg": { "displayName": "Wordmark Large", "purpose": "Landing/footer product wordmark (17px)." },
+      "tag": { "displayName": "Tag", "purpose": "Chips, pill labels, small inline tags (11px)." },
+      "caption": { "displayName": "Caption", "purpose": "Badges, layer eyebrows, stale-chip, little letters; uppercase-tracked (10px)." },
+      "cell": { "displayName": "Cell", "purpose": "Dense admin table cells and driver name rows (13px)." },
+      "micro": { "displayName": "Micro", "purpose": "9px uppercase micro-labels in admin header/sidebar capsules and avatar counters; never body copy." }
+    },
+    "shadows": [
+      { "name": "neo", "value": "3px 3px 0 0 rgba(24,24,27,0.85)", "purpose": "Light-palette card, modal, sheet, and hero map elevation; hard offset, never blurred." },
+      { "name": "neo-dark", "value": "3px 3px 0 0 rgba(241,245,249,0.17)", "purpose": "Dark-palette equivalent of neo." },
+      { "name": "neo-sm", "value": "2px 2px 0 0 rgba(24,24,27,0.85)", "purpose": "Small controls: buttons, chips, KPI cards, popups." },
+      { "name": "neo-sm-dark", "value": "2px 2px 0 0 rgba(241,245,249,0.17)", "purpose": "Dark-palette equivalent of neo-sm." },
+      { "name": "neo-brand", "value": "3px 3px 0 0 rgba(5,150,105,0.9)", "purpose": "Signature accent on bright fills; dark = rgba(52,211,153,0.9)." },
+      { "name": "neo-cyan", "value": "3px 3px 0 0 rgba(8,145,178,0.9)", "purpose": "Basecamp accent on bright fills; dark = rgba(34,211,238,0.9)." }
+    ],
+    "motion": [
+      { "name": "scroll-reveal", "value": "opacity 90%->100%, translate-y-2 -> 0; IntersectionObserver", "purpose": "The single authored landing scroll reveal; reduced-motion renders shown immediately." },
+      { "name": "press-feedback", "value": "active:translate-y-[2px] + active:shadow-none", "purpose": "Tactile echo of the offset-shadow language on buttons, pills, FAB, cards." },
+      { "name": "marker-ping", "value": "1.5s ease-out scale(0.65)->1.45 fade", "purpose": "Warning shelter ring sweep; off under prefers-reduced-motion." },
+      { "name": "marker-pulse", "value": "1.5s ease-in-out shadow ring", "purpose": "Warning pin pulse; off under prefers-reduced-motion." }
+    ],
+    "breakpoints": [
+      { "name": "sm", "value": "640px" },
+      { "name": "md", "value": "768px" },
+      { "name": "lg", "value": "1024px" },
+      { "name": "xl", "value": "1280px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The single action control: main CTAs, FAB, save buttons.",
+      "html": "<button class=\"ds-btn-primary\">Simpan</button>",
+      "css": ".ds-btn-primary { background: #059669; color: #ffffff; border: 2px solid #18181b; border-radius: 12px; padding: 0 20px; height: 44px; font-family: 'Plus Jakarta Sans', Inter, sans-serif; font-weight: 700; font-size: 14px; box-shadow: 2px 2px 0 0 rgba(24,24,27,0.85); transition: transform .1s, box-shadow .1s; } .ds-btn-primary:hover { box-shadow: 3px 3px 0 0 rgba(24,24,27,0.85); } .ds-btn-primary:active { transform: translateY(2px); box-shadow: none; } .ds-btn-primary:focus-visible { outline: 2px solid #059669; outline-offset: 2px; } .ds-btn-primary:disabled { opacity: .5; }"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Quiet alternative action; outlined, edge-bordered.",
+      "html": "<button class=\"ds-btn-secondary\">Batal</button>",
+      "css": ".ds-btn-secondary { background: #ffffff; color: #18181b; border: 2px solid #cbd5e1; border-radius: 12px; padding: 0 20px; height: 40px; font-family: 'Plus Jakarta Sans', Inter, sans-serif; font-weight: 700; font-size: 14px; transition: border-color .15s; } .ds-btn-secondary:hover { border-color: #52525b; } .ds-btn-secondary:focus-visible { outline: 2px solid #059669; outline-offset: 2px; } .ds-btn-secondary:disabled { opacity: .5; }"
+    },
+    {
+      "name": "Filter Pill (active)",
+      "kind": "chip",
+      "refersTo": "filter-pill-active",
+      "description": "Selected category filter: bright fill, near-black ink.",
+      "html": "<button class=\"ds-pill-active\">Warkop · 412</button>",
+      "css": ".ds-pill-active { background: #059669; color: #09090b; border: 2px solid #18181b; border-radius: 9999px; padding: 6px 14px; font-family: 'Plus Jakarta Sans', Inter, sans-serif; font-weight: 800; font-size: 12px; box-shadow: 2px 2px 0 0 rgba(24,24,27,0.85); } .ds-pill-active:active { transform: translateY(2px); box-shadow: none; } .ds-pill-active:focus-visible { outline: 2px solid #059669; outline-offset: 2px; }"
+    },
+    {
+      "name": "Filter Pill (inactive)",
+      "kind": "chip",
+      "refersTo": "filter-pill-inactive",
+      "description": "Unselected category filter: outlined chip.",
+      "html": "<button class=\"ds-pill\">Semua · 512</button>",
+      "css": ".ds-pill { background: #ffffff; color: #18181b; border: 2px solid #cbd5e1; border-radius: 9999px; padding: 6px 14px; font-family: 'Plus Jakarta Sans', Inter, sans-serif; font-weight: 700; font-size: 12px; } .ds-pill:hover { border-color: #18181b; } .ds-pill:focus-visible { outline: 2px solid #059669; outline-offset: 2px; }"
+    },
+    {
+      "name": "Surface Card",
+      "kind": "card",
+      "refersTo": "card-surface",
+      "description": "The standard content container: bordered, white, hard shadow.",
+      "html": "<div class=\"ds-card\"><strong>Zona Warning</strong><p>3 titik aktif minggu ini.</p></div>",
+      "css": ".ds-card { background: #ffffff; color: #18181b; border: 2px solid #cbd5e1; border-radius: 16px; padding: 16px; box-shadow: 2px 2px 0 0 rgba(24,24,27,0.85); font-family: 'Plus Jakarta Sans', Inter, sans-serif; } .ds-card strong { font-size: 14px; font-weight: 800; } .ds-card p { margin: 4px 0 0; font-size: 13px; color: #52525b; font-weight: 500; }"
+    },
+    {
+      "name": "Text Input",
+      "kind": "input",
+      "refersTo": "input-field",
+      "description": "Quiet form field: 1px edge border on surface-2.",
+      "html": "<input class=\"ds-input\" type=\"text\" placeholder=\"Cari titik…\">",
+      "css": ".ds-input { height: 44px; width: 100%; background: #f1f5f9; color: #18181b; border: 1px solid #cbd5e1; border-radius: 12px; padding: 0 16px; font-family: 'Plus Jakarta Sans', Inter, sans-serif; font-size: 14px; font-weight: 500; } .ds-input::placeholder { color: #52525b; } .ds-input:focus { border-color: #059669; outline: 2px solid #059669; outline-offset: 2px; }"
+    },
+    {
+      "name": "Type Pill (map category)",
+      "kind": "chip",
+      "refersTo": "filter-pill-active",
+      "description": "Map category chip: fixed categorical fill with near-black ink in both palettes.",
+      "html": "<span class=\"ds-type\">Warkop</span>",
+      "css": ".ds-type { background: #10b981; color: #09090b; border: 2px solid #18181b; border-radius: 9999px; padding: 4px 10px; font-family: 'Plus Jakarta Sans', Inter, sans-serif; font-size: 11px; font-weight: 800; box-shadow: 2px 2px 0 0 rgba(24,24,27,0.85); }"
+    },
+    {
+      "name": "Pending Badge",
+      "kind": "chip",
+      "refersTo": "card-surface",
+      "description": "Amber pending-moderation badge with near-black text.",
+      "html": "<span class=\"ds-badge\">Menunggu · 2</span>",
+      "css": ".ds-badge { background: #d97706; color: #09090b; border: 2px solid #18181b; border-radius: 9999px; padding: 2px 8px; font-family: 'Plus Jakarta Sans', Inter, sans-serif; font-size: 10px; font-weight: 800; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Driver's Waypoint Board",
+    "overview": "Public frontend for SheoJol: a shelter/basecamp community map for ride-hailing (ojol) drivers in Tangerang, rendered as a single coherent world — Dual-Theme Utility Neobrutalism. One visual system, two palettes (light and dark) driven by next-themes, defaulting to the system preference. The theme is a lamp, not a separate design: same categorical accents, same 1px/2px border language, same hard offset shadows in both palettes. The system is loud, print-plain, and tactile: bold border-heavy cards, utilitarian type, dot-level legend for the map, hard offset shadows that read as physical blocks. It deliberately avoids glassmorphism, gradient scrims, soft glow, and decorative ornament — every pixel earns placement.",
+    "keyCharacteristics": [
+      "Driver-first utility: every surface answers \"where do I safely stop right now?\" in under 2 seconds; navigation is one tap away, always on-screen.",
+      "Honest density: informational surfaces are dense but legible; the map owns any viewport it shares.",
+      "One authored motion moment (scroll reveal); everything else is a tactile echo of the offset-shadow language.",
+      "Live data honesty: real counts, explicit skeleton/error states, and an honest LIVE vs DEMO flag."
+    ],
+    "rules": [
+      { "name": "The One-Accent Rule", "body": "A single primary accent per surface. Chips, KPIs, and FABs may be colorful (they encode categories), but no screen carries two competing primary actions.", "section": "colors" },
+      { "name": "The Hard-Only Rule", "body": "Elevation is either a flat surface or a hard offset shadow. No blur, no diffuse drop shadows, no gradient scrims anywhere — with one deliberate exception: the dashboard/landing header logo card is a frosted chip (bg-white/85 / dark:bg-slate-950/80 + backdrop-blur-md, rounded-2xl) so the live map reads through behind the brand mark. It is the only blur in the system.", "section": "elevation" },
+      { "name": "The Set-Register Rule", "body": "Big numbers and headlines are always black (900) and tight-tracked; body weight never exceeds 600. If it isn't a number or a label, it isn't black.", "section": "typography" },
+      { "name": "The Outline-Follows-Corner Rule", "body": "When a 2px border meets a rounded corner, the border curves with the corner (bottom sheet top cap, modal), rather than stopping square. Consistency across every sheet is the point.", "section": "shapes" }
+    ],
+    "dos": [
+      "Do use semantic tokens (bg, surface, edge, content, primary, accent) for all UI; hardcoded zinc/slate/emerald/cyan is forbidden except the documented deliberate exceptions.",
+      "Do keep interactive emphasis at 2px borders with hard offset shadows; pressed state translates down and collapses the shadow.",
+      "Do keep the near-black-on-bright-fill pair (zinc-950 on emerald/cyan/red/amber) in both palettes — it is the signature, measured AA.",
+      "Do theme all browser chrome (selection, scrollbars, popups, attribution, color-scheme) with the active palette.",
+      "Do show explicit skeleton rails, flat error/empty callouts, and a LIVE vs DEMO honesty flag; never fabricate counts.",
+      "Do keep one authored motion moment (scroll reveal) and honor prefers-reduced-motion."
+    ],
+    "donts": [
+      "Don't add backdrop blur, gradient scrims, glass panels, or any soft/shadow-glow elevation — depth is hard offset only (exception: the single frosted logo card in the map header, see The Hard-Only Rule).",
+      "Don't introduce a second font, a third green, or a separate \"admin dark\" palette; one world, two lamps.",
+      "Don't put a theme capsule in the dashboard top bar (the map control stack owns that switch on the map surface).",
+      "Don't add the bottom nav to the map surface — the map owns the viewport; BottomNav is lg:hidden on /me and /account only.",
+      "Don't write comments in source or conversational copy in the UI (e.g. no \"Loading... please wait\" prose; use skeleton rails instead).",
+      "Don't use emoji as chrome icons; one stroke-SVG family, with emoji surviving only on the pinned amenity tiles, the mobile account gear chip, and the account quick-action menu rows (wayfinding affordances, lg:hidden)."
+    ]
+  }
+}
